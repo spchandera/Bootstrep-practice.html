@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<style>
+    .sp {
+        font-size: 2rem;
+        font-weight: 700;
+        background-color: rgb(0, 47, 255);
+        color: #ffff;
+        border-radius: 50%;
+        padding: 0px 16px;
+        margin: 0 35rem 0 0 ;
+    }
+
+
+    .img img {
+        width: 80%;
+        padding: 60px 0;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        /* box-shadow: 10px 10px 10px rgb(21, 21, 21); */
+        /* background-size: cover; */
+    }
+
+    .col-6 h4 {
+        padding-top: 90px;
+        color: rgb(45, 45, 45);
+        letter-spacing: 4px;
+    }
+
+    .col-6 h4:hover {
+        letter-spacing: 10px;
+        transition: 2s;
+        color: #ffff;
+        cursor: pointer;
+    }
+
+    .col-6 h1 {
+        padding: 5px 0 25px 0;
+    }
+
+    ul li a {
+        margin: 0 27px;
+    }
+
+    .sec1btn {
+        padding: 10px 0 90px 0;
+    }
+</style>
+
+<body>
+
+    <div class="sec-one bg-black" id="sec1">
+        <header class="head">
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                    <a class="navbar-brand sp" href="#">S</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-light" aria-current="page" href="#sec-1">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-light" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-light" aria-current="page" href="#">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-light" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fs-4 text-light" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                            <input class="form-control bg-black text-light fs-5 me-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="home">
+            <div class="container text-light">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="img"> <img src="./img/img.jpg" alt=""></div>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="fw-bold">WEB DESIGNER</h4>
+                        <h1 class="fs-1">Sameer Chandera</h1>
+                        <p class="fs-4">
+                            I'm a Web Developer, I love to create beautiful and functional websites.
+                            Web developer positions require that you have knowledge of and experience in website design
+                            and development, and that you can use your skills to develop a website that meets standards
+                            and specifications.
+                        </p>
+                        <div class="sec1btn"> <a href="#"><button type="button" class="btn btn-light fs-5">Download
+                                    Resume</button></a></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
